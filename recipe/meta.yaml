@@ -10,8 +10,8 @@ package:
 source:
   fn: bit64_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/bit64_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/bit64/bit64_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/bit64_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/bit64/bit64_{{ version }}.tar.gz
   sha256: 7b9aaa7f971198728c3629f9ba1a1b24d53db5c7e459498b0fdf86bbd3dff61f
 
 
